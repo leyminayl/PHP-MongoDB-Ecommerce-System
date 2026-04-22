@@ -10,7 +10,8 @@ A web-based application developed **as a mini-project for my Advanced Database S
 ### 🛠️Tech Stack:
 - **Frontend:** HTML
 - **Backend:** PHP
-- **Database:** MongoDB Tools: Visual Studio Code, MongoDB
+- **Database:** MongoDB
+- **Tools:** Visual Studio Code, MongoDB
 
 ### 📁 Project Structure:
 The system is built with structured backend logic to manage database connections and dynamic data handling.
