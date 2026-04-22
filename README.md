@@ -26,7 +26,7 @@ The system is built with structured backend logic to manage database connections
 - Implementing secure authentication flows and role-based logic using PHP.
 - Designing functional UI/UX and tabular layouts for administrative data control.
 
-### 📸Screenshots
+### 📸 Screenshots
 
 _**🔐 Login Page:**_
 This page serves as the secure entry point for the system. It validates user credentials and implements role-based redirection, ensuring that only authorized administrators can access the product management tools while providing a seamless login experience for regular users.
