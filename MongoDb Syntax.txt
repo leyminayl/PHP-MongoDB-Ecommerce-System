@@ -1,0 +1,144 @@
+My Connection String Info:
+mongodb+srv://202301362:LqTDZG7ariVgPW2c@advabas.mfjwhbx.mongodb.net/
+
+
+
+
+
+Insert Data for my Login Collection
+
+
+//For Admin Credentials:
+
+>> db.login.insertOne({
+  _id: "admin001",
+  username: "admin",
+  password: "admin123"
+});
+
+//For User Credentials:
+
+>> db.login.insertOne({
+  _id: "user001",
+  username: "user",
+  password: "user123"
+});
+
+
+
+
+Insert Data for my Product Collection
+
+
+db.product.insertMany([
+  {
+    ProductName: "ASUS TUF Gaming GeForce RTX 3060",
+    Description: "12GB GDDR6 graphics card with DLSS and Ray Tracing support.",
+    InStock: 10,
+    SellingPrice: 18499.00,
+    Rating: 5,
+    ProductImage: "uploads/asus_rtx3060.jpg"
+  },
+  {
+    ProductName: "Lenovo IdeaPad Slim 3i",
+    Description: "14-inch FHD, Intel Core i5, 8GB RAM, 512GB SSD, Windows 11.",
+    InStock: 7,
+    SellingPrice: 32995.00,
+    Rating: 4,
+    ProductImage: "uploads/lenovo_ideapad.jpg"
+  },
+  {
+    ProductName: "Xiaomi Mi 20000mAh Power Bank 3",
+    Description: "High-capacity fast-charging power bank with dual USB output.",
+    InStock: 50,
+    SellingPrice: 1199.00,
+    Rating: 5,
+    ProductImage: "uploads/xiaomi_powerbank.jpg"
+  },
+  {
+    ProductName: "Acer Nitro VG270 Monitor",
+    Description: "27-inch FHD IPS monitor, 165Hz refresh rate, 1ms response time.",
+    InStock: 12,
+    SellingPrice: 8999.00,
+    Rating: 4,
+    ProductImage: "uploads/acer_nitro_monitor.jpg"
+  },
+  {
+    ProductName: "Kingston 64GB USB 3.2 Flash Drive",
+    Description: "Compact, high-speed USB flash drive with metal casing.",
+    InStock: 100,
+    SellingPrice: 499.00,
+    Rating: 4,
+    ProductImage: "uploads/kingston_usb.jpg"
+  }
+]);
+
+
+
+
+
+db.product.insertMany([
+  {
+    ProductName: "Logitech G435 Wireless Headset",
+    Description: "Lightweight gaming headset with Bluetooth and Lightspeed wireless.",
+    InStock: 15,
+    SellingPrice: 2799.00,
+    Rating: 5,
+    ProductImage: "uploads/logitech_g435.jpg"
+  },
+  {
+    ProductName: "Razer Basilisk X HyperSpeed Wireless Mouse",
+    Description: "High-speed wireless gaming mouse with 16000 DPI sensor.",
+    InStock: 20,
+    SellingPrice: 2395.00,
+    Rating: 4,
+    ProductImage: "uploads/razer_basilisk.jpeg"
+  },
+  {
+    ProductName: "Redragon K552 Mechanical Keyboard",
+    Description: "RGB mechanical gaming keyboard with blue switches.",
+    InStock: 10,
+    SellingPrice: 1895.00,
+    Rating: 5,
+    ProductImage: "uploads/redragon_k552.jpg"
+  },
+  {
+    ProductName: "Aluminum Laptop Stand",
+    Description: "Ergonomic adjustable stand for laptops up to 17 inches.",
+    InStock: 30,
+    SellingPrice: 799.00,
+    Rating: 4,
+    ProductImage: "uploads/laptop_stand.jpg"
+  },
+  {
+    ProductName: "realme C55",
+    Description: "6.72-inch display, 8GB RAM, 256GB storage, Android 13.",
+    InStock: 8,
+    SellingPrice: 8999.00,
+    Rating: 4,
+    ProductImage: "uploads/realme_c55.jpg"
+  },
+  {
+    ProductName: "iPhone Wallet Phone Case",
+    Description: "PU leather phone case with card slots and magnetic closure.",
+    InStock: 60,
+    SellingPrice: 350.00,
+    Rating: 4,
+    ProductImage: "uploads/iphone_wallet_case.jpg"
+  }
+]);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
